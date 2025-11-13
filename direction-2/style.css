@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=array@WEIGHTS&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=array@400,500,600,700&display=swap');
 
 
 
@@ -18,9 +18,10 @@ h1 {
 }
 
 .style {
-  font-family: 'Array-Bold';
+  font-family: 'Array-Bold', sans-serif;
   font-size: 8rem;
   color:#1500ff;
+  font-weight: 700;
   background-color: rgb(241, 169, 255);
   padding: 2rem;
 
