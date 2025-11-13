@@ -1,0 +1,93 @@
+@import url('https://api.fontshare.com/v2/css?f[]=outfit@400,500,600,700&display=swap');
+
+
+
+:root{
+    font-family: 'Outfit';
+    font-size: 125%;
+    background-color: rgb(110, 42, 23);
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  color:rgb(221, 192, 159);
+
+}
+
+.style {
+  font-size: 6rem;
+  color:rgb(25, 25, 25);
+  background-color: rgb(82, 123, 183);
+  padding: 1.5rem;
+  padding-block: 1rem;
+  width: 70%;
+  border-radius: 2rem;
+}
+
+
+.four-letter {
+    font-size: 1.5rem;
+    margin-top: -4.5rem;
+     background-color: rgb(200, 198, 198);
+     color: rgb(238, 236, 228);
+    width: 80%;
+     padding-inline: 1rem;
+     padding-block: 1rem;
+     border-radius: 2rem;
+}
+
+
+li {
+    font-size: .7rem;
+    color: rgb(238, 236, 228);
+    padding-block: .2rem;
+}
+
+.original-link{
+      color: rgb(82, 123, 183);
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: rgb(82, 123, 183);
+    background-color: rgb(220, 222, 227);
+    border-radius: 2rem;
+    padding-block: 1rem;
+    text-align: left;
+    padding-inline: 1.2rem;
+    position: sticky;
+
+}
+
+
+p {
+  padding-inline: 1.5rem;
+  padding-block: .5rem;
+}
+
+
+.section-1, .section-3,  .section-5{
+  background-color: rgb(221, 192, 159); 
+  border-radius: 2rem;
+  margin-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+.section-2, .section-4{
+  background-color: rgb(238, 236, 228); 
+  border-radius: 2rem;
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+footer{
+    background-color: rgb(82, 123, 183);
+    padding-block: 3rem;
+    padding-inline: 3rem;
+    margin-top: 3rem;
+}
+
+
