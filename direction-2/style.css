@@ -1,0 +1,175 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: 'Array-Wide';
+  src: url('../fonts/Array-Wide.woff2') format('woff2'),
+       url('../fonts/Array-Wide.woff') format('woff'),
+       url('../fonts/Array-Wide.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Array-Regular';
+  src: url('../fonts/Array-Regular.woff2') format('woff2'),
+       url('../fonts/Array-Regular.woff') format('woff'),
+       url('../fonts/Array-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Array-Semibold';
+  src: url('../fonts/Array-Semibold.woff2') format('woff2'),
+       url('../fonts/Array-Semibold.woff') format('woff'),
+       url('../fonts/Array-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Array-SemiboldWide';
+  src: url('../fonts/Array-SemiboldWide.woff2') format('woff2'),
+       url('../fonts/Array-SemiboldWide.woff') format('woff'),
+       url('../fonts/Array-SemiboldWide.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Array-BoldWide';
+  src: url('../fonts/Array-BoldWide.woff2') format('woff2'),
+       url('../fonts/Array-BoldWide.woff') format('woff'),
+       url('../fonts/Array-BoldWide.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Array-Bold';
+  src: url('../fonts/Array-Bold.woff2') format('woff2'),
+       url('../fonts/Array-Bold.woff') format('woff'),
+       url('../fonts/Array-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
+
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("fonts/clash-grotesk/ClashGrotesk-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("fonts/clash-grotesk/ClashGrotesk-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("fonts/clash-grotesk/ClashGrotesk-Semibold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* 
+@font-face {
+  font-family: 'Melodrama-Light';
+  src: url('../fonts/Melodrama-Light.woff2') format('woff2'),
+       url('../fonts/Melodrama-Light.woff') format('woff'),
+       url('../fonts/Melodrama-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Melodrama-Regular';
+  src: url('../fonts/Melodrama-Regular.woff2') format('woff2'),
+       url('../fonts/Melodrama-Regular.woff') format('woff'),
+       url('../fonts/Melodrama-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Melodrama-Medium';
+  src: url('../fonts/Melodrama-Medium.woff2') format('woff2'),
+       url('../fonts/Melodrama-Medium.woff') format('woff'),
+       url('../fonts/Melodrama-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Melodrama-Semibold';
+  src: url('../fonts/Melodrama-Semibold.woff2') format('woff2'),
+       url('../fonts/Melodrama-Semibold.woff') format('woff'),
+       url('../fonts/Melodrama-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Melodrama-Bold';
+  src: url('../fonts/Melodrama-Bold.woff2') format('woff2'),
+       url('../fonts/Melodrama-Bold.woff') format('woff'),
+       url('../fonts/Melodrama-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+} */
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
+/* @font-face {
+  font-family: 'Melodrama-Variable';
+  src: url('../fonts/Melodrama-Variable.woff2') format('woff2'),
+       url('../fonts/Melodrama-Variable.woff') format('woff'),
+       url('../fonts/Melodrama-Variable.ttf') format('truetype');
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+} */
+
+
+:root{
+    font-size: 125%;
+    background-color: pink;
+     --font-sans: "Clash Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family:'Clash Grotesk', sans-serif;
+}
+
+h2 {
+  font-family:'Array-Bold', sans-serif;
+}
+
+
+p {
+  font-family:'Clash Grotesk', sans-serif;
+}
+
+
+
+
+
