@@ -1,14 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=array@400,500,600,700&display=swap');
+@import url('https://api.fontshare.com/v2/css?family=array@400,500,600,700&display=swap');
 
+@font-face {
+  font-family: 'Array-Bold';
+  src: url('fonts/Array-Bold.woff2') format('woff2'),
+       url('fonts/Array-Bold.woff') format('woff'),
+       url('fonts/Array-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
 
 
 :root{
     font-size: 125%;
     background-color: rgb(218, 218, 218);
 }
-
 
 
 h1 {
