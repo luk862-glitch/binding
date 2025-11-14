@@ -3,21 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://api.fontshare.com/v2/css?family=array@400,500,600,700&display=swap');
 
+
 @font-face {
   font-family: 'Array-Semibold';
-  src: url('fonts/Array/Array-Semibold.woff2') format('woff2'),
-       url('fonts/Array/Array-Semibold.woff') format('woff'),
-       url('fonts/Array/Array-Semibold.ttf') format('truetype');
+  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
+       url('../direction-2/fonts/Array/Array-Semibold.woff') format('woff'),
+       url('../direction-2/fonts/Array/Array-Semibold.ttf') format('truetype');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Array-Bold';
-  src: url('fonts/Array/Array-Bold.woff2') format('woff2'),
-       url('fonts/Array/Array-Bold.woff') format('woff'),
-       url('fonts/Array/Array-Bold.ttf') format('truetype');
+  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
+       url('../direction-2/fonts/Array/Array-Bold.woff') format('woff'),
+       url('../direction-2/fonts/Array/Array-Bold.ttf') format('truetype');
   font-weight: 700;
 }
+
 
 :root {
     font-family: 'Garamond', serif;
@@ -82,7 +84,7 @@
 
 }
 
-li {
+.nav li {
   font-family:'Clash Grotesk', sans-serif;
   padding-right: .2rem;
   padding-block: .2rem;
@@ -100,7 +102,11 @@ li {
   color: rgb(220, 222, 227);
 }
 
-
+.data{
+  font-family: 'Space Grotesk', sans-serif;
+  padding-right: .2rem;
+  padding-block: .2rem;
+}
 
 .script-2{
     font-family: 'Imperial Script', cursive;
