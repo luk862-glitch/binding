@@ -40,10 +40,24 @@ h1 {
 
 
 li {
-    font-size: .7rem;
-    color: rgb(238, 236, 228);
-    padding-block: .2rem;
+  font-family:'Clash Grotesk', sans-serif;
+  color:bisque;
+  padding-right: .2rem;
+  padding-block: .2rem;
+  display: inline-flex;
 }
+
+
+
+/* links */
+.nav {
+  background-color: black;
+}
+
+.nav a {
+  color: rgb(220, 222, 227);
+}
+
 
 .original-link{
       color: rgb(82, 123, 183);
@@ -59,6 +73,16 @@ h2 {
     text-align: left;
     padding-inline: 1.2rem;
     position: sticky;
+}
+
+blockquote{
+  font-size: 2rem;
+}
+
+.name{
+    font-size: .8rem;
+    margin-top: .8rem;
+    display: block;
 }
 
 
