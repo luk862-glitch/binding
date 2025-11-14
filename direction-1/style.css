@@ -4,13 +4,6 @@
 @import url('https://api.fontshare.com/v2/css?family=array@400,500,600,700&display=swap');
 
 
-@font-face {
-  font-family: 'Array-Semibold';
-  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
-       url('../direction-2/fonts/Array/Array-Semibold.woff') format('woff'),
-       url('../direction-2/fonts/Array/Array-Semibold.ttf') format('truetype');
-  font-weight: 600;
-}
 
 @font-face {
   font-family: 'Array-Bold';
@@ -38,7 +31,7 @@
 
 
 .T {
-  font-family: 'Array', sans-serif;
+  font-family: 'Array-Bold', sans-serif;
   color: transparent;
   font-size: 7rem;
   -webkit-text-stroke: .09rem black;
