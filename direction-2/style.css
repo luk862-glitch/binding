@@ -48,15 +48,11 @@ h1 {
 
 
 
-.data{
-   font-family:'Clash Grotesk', sans-serif;
-  padding-right: .2rem;
-  padding-block: .2rem;
-}
 
-.nav li {
+.nav{
   font-family:'Clash Grotesk', sans-serif;
-  padding-right: .2rem;
+  background-color: black;
+  padding-right: 1rem;
   padding-block: .2rem;
   display: inline-flex;
 }
@@ -64,14 +60,16 @@ h1 {
 
 
 /* links */
-.nav {
-  background-color: black;
-}
 
 .nav a {
   color: rgb(220, 222, 227);
 }
 
+.data{
+   font-family:'Clash Grotesk', sans-serif;
+  padding-right: .2rem;
+  padding-block: .2rem;
+}
 
 
 blockquote {
