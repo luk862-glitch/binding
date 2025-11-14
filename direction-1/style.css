@@ -1,51 +1,128 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?family=array@400,500,600,700&display=swap');
 
+
+:root {
+    font-family: 'Garamond', serif;
     font-size: 125%;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.839);
+}
+
+.S {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10rem;
+    color: transparent;
+    -webkit-text-stroke: .2rem black;
 }
 
 
-p{
-       max-width: 75ch; 
-       padding-inline: 5rem;
-   margin-block: 1.8rem;
+.T {
+  font-family: 'Array', sans-serif;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-text-stroke: .09rem black;
+  margin-left: -1rem;
 }
 
-h1{
-    font-weight:500;
+
+.Y{
+    font-family: 'Imperial Script', cursive;
+    font-size: 13rem;
+    font-weight: 200;
+    margin-left: -2rem;
 }
 
-h2{
-    font-family: 'Playfair Display', serif;
+
+.L {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7rem;
+    color: transparent;
+    -webkit-text-stroke: .1rem black;
+    margin-left: -1rem;
+}
+
+.E{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+    color: black;
+    margin-left: -1rem;
+}
+
+.four-letter {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+}
+
+.script-1{
+    font-family: 'Imperial Script', cursive;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-right: .5rem;
+    margin-left: -0.5rem;
+
+}
+
+
+.script-2{
+    font-family: 'Imperial Script', cursive;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-right: .2rem;
+
+}
+
+
+h1 {
+  font-size: 3rem;
+  color:rgb(29, 29, 29);
+  font-weight: 700;
+  padding: 1rem;
+  width: 100vw;
+  border-bottom: .2rem solid rgb(29, 29, 29);
+  margin: 0 calc(50% - 50vw); 
+  padding: 1rem; 
+  margin-inline: .5rem;
+}
+
+
+li{
+    margin: 0 calc(50% - 50vw); 
+    padding: .2rem;
+}
+
+
+
+h2 {
     font-size: 3rem;
-    font-weight: 500;
-    /* border-inline-start-color: black;
-	border-inline-start-style: solid;
-	border-inline-start-width: 0.25rem; */
-    background-color: rgb(240, 238, 237, 0.9);
-    padding-inline: 10rem;
-    padding-block: 1rem;
-    padding-left:1rem;
-    inline-size: 80%;
-	inset-block-start: 1rem;
-	inset-inline-start: 3rem;
-	position: sticky;
-
+    margin-top: 5.5rem;
+    margin-left: 1rem;
 }
 
 
-footer { 
-    color: rgb(238, 238, 238);
-    text-align:right;
-    background-color: rgb(0, 0, 0);
-    font-size: 1.2rem;
-    color: lightgray;
-    padding-inline: 10rem;
-    padding-block: 5rem;
-    margin-inline: -10rem;
-    margin-top: 5rem;
+.name{
+    font-size: .8rem;
+    margin-top: .8rem;
+    display: block;
+}
+
+p {
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
 }
 
 
 
+footer{
+    background-color: rgb(241, 169, 255);
+    width: 100vw;
+    margin: 0 calc(50% - 50vw); 
+    padding: 1.5rem; 
+}
+
+a{
+    color:#1500ff;
+
+}
