@@ -2,15 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
 @import url('https://api.fontshare.com/v2/css?family=array@400,500,600,700&display=swap');
 
+
 @font-face {
-  font-family: 'Array-Bold';
-  src: url('fonts/Array-Bold.woff2') format('woff2'),
-       url('fonts/Array-Bold.woff') format('woff'),
-       url('fonts/Array-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-display: swap;
-  font-style: normal;
+  font-family: 'Array';
+  src: url('../fonts/Array-Wide.woff2') format('woff2');
+  font-weight: 300;
 }
+
+@font-face {
+  font-family: 'Array';
+  src: url('../fonts/Array-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Array';
+  src: url('../fonts/Array-Semibold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Array';
+  src: url('../fonts/Array-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
 
 
 :root{
@@ -18,70 +34,31 @@
     background-color: rgb(218, 218, 218);
 }
 
-.star {
-  width: 0;
-  height: 0;
-  margin: 50px;
-  position: relative;
-  border-right: 50px solid transparent;
-  border-bottom: 35px solid gold;
-  border-left: 50px solid transparent;
-  transform: rotate(35deg);
-}
-
-.star:before {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: -25px;
-  left: -50px;
-  border-right: 50px solid transparent;
-  border-bottom: 35px solid gold;
-  border-left: 50px solid transparent;
-  transform: rotate(-70deg);
-}
-
-.star:after {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 10px;
-  left: -65px;
-  border-right: 65px solid transparent;
-  border-bottom: 45px solid gold;
-  border-left: 65px solid transparent;
-  transform: rotate(70deg);
-}
-
-
 
 h1 {
-  font-family: 'Array';
+  font-family: 'Array' ; font-weight: 700;
 }
 
 .style {
-  font-size: 5rem;
+  font-size: 4.5rem;
+  letter-spacing: -0.03em;
   color:#1500ff;
   font-weight: 700;
   background-color: rgb(241, 169, 255);
-  padding: 1rem;
-  width: 100vw;
-  margin: 0 calc(50% - 50vw); 
-  padding: 1rem; 
+  padding-block: 1rem;
+  padding-left: 1rem;
 }
+
+
 
 .four-letter {
   font-size: 2rem;
   color: rgb(241, 169, 255);
 }
 
-li{
-    font-family: 'Array';
-    font-family:'Clash Grotesk', sans-serif;
-    margin: 0 calc(50% - 50vw); 
-    padding: .2rem;
+li {
+  /* margin: 0; */
+  padding: .2rem;
 }
 
 
@@ -97,6 +74,10 @@ h2 {
     font-size: 2rem;
     margin-top: 5.5rem;
     margin-left: 1rem;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 
@@ -118,8 +99,5 @@ p {
 footer{
     font-family:'Clash Grotesk', sans-serif;
     background-color: rgb(241, 169, 255);
-    width: 100vw;
-    margin: 0 calc(50% - 50vw); 
-    padding: 1.5rem; 
-}
-
+    padding: 1.5rem;
+  }
