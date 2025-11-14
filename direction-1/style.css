@@ -32,24 +32,23 @@
     font-family: 'Imperial Script', cursive;
     font-size: 10rem;
     font-weight: 200;
-    margin-left: -2rem;
+    margin-left: -1rem;
 }
 
 
 .L {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 5rem;
+    font-size: 7rem;
     color: transparent;
     -webkit-text-stroke: .1rem black;
-    margin-left: -1rem;
 }
 
 .E{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 100;
     color: black;
-    margin-left: -1rem;
+    margin-left: -.5rem;
 }
 
 .four-letter {
@@ -67,6 +66,9 @@
 
 }
 
+body {
+  overflow-x: hidden;
+}
 
 .script-2{
     font-family: 'Imperial Script', cursive;
@@ -76,25 +78,11 @@
 
 }
 
-
 h1 {
-  font-size: 3rem;
-  color:rgb(29, 29, 29);
-  font-weight: 700;
+  margin: 0;
   padding: 1rem;
-  width: 100vw;
-  border-bottom: .2rem solid rgb(29, 29, 29);
-  margin: 0 calc(50% - 50vw); 
-  padding: 1rem; 
-  margin-inline: .5rem;
+  border-bottom: .2rem solid rgb(29,29,29);
 }
-
-
-li{
-    margin: 0 calc(50% - 50vw); 
-    padding: .2rem;
-}
-
 
 
 h2 {
