@@ -1,20 +1,19 @@
 @import url('fonts/css/array.css');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
 
-
 @font-face {
   font-family: 'Array-Semibold';
-  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
-       url('../direction-2/fonts/Array/Array-Semibold.woff') format('woff'),
-       url('../direction-2/fonts/Array/Array-Semibold.ttf') format('truetype');
+  src: url('../fonts/Array/Array-Semibold.woff2') format('woff2'),
+       url('../fonts/Array/Array-Semibold.woff') format('woff'),
+       url('../fonts/Array/Array-Semibold.ttf') format('truetype');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Array-Bold';
-  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
-       url('../direction-2/fonts/Array/Array-Bold.woff') format('woff'),
-       url('../direction-2/fonts/Array/Array-Bold.ttf') format('truetype');
+  src: url('../fonts/Array/Array-Bold.woff2') format('woff2'),
+       url('../fonts/Array/Array-Bold.woff') format('woff'),
+       url('../fonts/Array/Array-Bold.ttf') format('truetype');
   font-weight: 700;
 }
 
