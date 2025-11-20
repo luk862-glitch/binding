@@ -1,48 +1,58 @@
-@import url('https://api.fontshare.com/v2/css?f[]=outfit@400,500,600,700&display=swap');
+@import url('fonts/css/array.css');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
+
+
+@font-face {
+  font-family: 'Array-Semibold';
+  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
+       url('../direction-2/fonts/Array/Array-Semibold.woff') format('woff'),
+       url('../direction-2/fonts/Array/Array-Semibold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Array-Bold';
+  src: url('../direction-2/fonts/Array/Array-Bold.woff2') format('woff2'),
+       url('../direction-2/fonts/Array/Array-Bold.woff') format('woff'),
+       url('../direction-2/fonts/Array/Array-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
 
 
 
 :root{
-    font-family: 'Outfit';
     font-size: 125%;
-    background-color: rgb(110, 42, 23);
+    background-color: rgb(222, 236, 222);
 }
 
-
-
+/* header */
 h1 {
-  font-size: 2rem;
-  color:rgb(221, 192, 159);
-
+  font-family: 'Array-Bold';
 }
 
 .style {
-  font-size: 6rem;
-  color:rgb(25, 25, 25);
-  background-color: rgb(82, 123, 183);
-  padding: 1.5rem;
-  padding-block: 1rem;
-  width: 70%;
-  border-radius: 2rem;
+  font-size: 4.5rem;
+  letter-spacing: -0.03em;
+  color:#1500ff;
+  font-weight: 700;
+  background-color: rgb(241, 169, 255);
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
 }
-
 
 .four-letter {
-    font-size: 1.5rem;
-    margin-top: -4.5rem;
-    background-color: rgb(200, 198, 198);
-    color: rgb(238, 236, 228);
-    width: 80%;
-    padding-inline: 1rem;
-    padding-block: 1rem;
-    border-radius: 2rem;
+  font-size: 2rem;
+  color: rgb(241, 169, 255);
+  margin-top: 0; 
 }
 
 
-.nav li {
-  color:bisque;
+
+
+.nav{
   font-family:'Clash Grotesk', sans-serif;
-  padding-right: .2rem;
+  background-color: black;
+  padding-right: 1rem;
   padding-block: .2rem;
   display: inline-flex;
 }
@@ -50,73 +60,56 @@ h1 {
 
 
 /* links */
-.nav {
-  background-color: black;
-}
 
 .nav a {
   color: rgb(220, 222, 227);
 }
 
-
 .data{
-color:bisque;
+   font-family:'Clash Grotesk', sans-serif;
+  padding-right: .2rem;
+  padding-block: .2rem;
 }
 
 
-
-.original-link{
-      color: rgb(82, 123, 183);
+blockquote {
+  font-family: 'Array-Semibold';
+  font-size: 2rem;
+  margin: 2rem;
+  color: #000;
 }
-
 
 h2 {
+    font-family: 'Array-Bold';
+    color:#1500ff;
     font-size: 2rem;
-    color: rgb(82, 123, 183);
-    background-color: rgb(220, 222, 227);
-    border-radius: 2rem;
-    padding-block: 1rem;
-    text-align: left;
-    padding-inline: 1.2rem;
-    position: sticky;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
 }
 
-blockquote{
-  font-size: 2rem;
+body {
+  overflow-x: hidden;
 }
+
 
 .name{
+    font-family:'Clash Grotesk', sans-serif;
     font-size: .8rem;
     margin-top: .8rem;
     display: block;
 }
 
-
 p {
-  padding-inline: 1.5rem;
-  padding-block: .5rem;
+    font-family:'Clash Grotesk', sans-serif;
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
 }
 
 
-.section-1, .section-3,  .section-5{
-  background-color: rgb(221, 192, 159); 
-  border-radius: 2rem;
-  margin-top: 10rem;
-  padding-bottom: 1rem;
-}
-
-.section-2, .section-4{
-  background-color: rgb(238, 236, 228); 
-  border-radius: 2rem;
-  margin-top: 5rem;
-  padding-bottom: 1rem;
-}
 
 footer{
-    background-color: rgb(82, 123, 183);
-    padding-block: 3rem;
-    padding-inline: 3rem;
-    margin-top: 3rem;
-}
-
-
+    font-family:'Clash Grotesk', sans-serif;
+    background-color: rgb(241, 169, 255);
+    padding: 1.5rem;
+  }
