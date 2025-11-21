@@ -65,10 +65,11 @@ li {
   font-family: 'Array-Semibold';
   font-size: 5rem;
   color: whitesmoke;
-  padding-right: .2rem;
-  padding-block: 2rem;
   display: inline-flex;
   list-style: none;
+  width:100%;
+  margin-block:2rem;
+  padding-inline: 1rem;
 }
 
 .A1{
@@ -90,7 +91,7 @@ li {
 
 .A3{
   background-image:
-  linear-gradient(rgba(0, 253, 0, 0.5), rgba(126, 255, 33, 0.5)),
+  linear-gradient(rgba(11, 177, 11, 0.5), rgba(18, 202, 186, 0.5)),
   url("../Image/image 1.png");
   background-size: cover;
   background-position: center;
