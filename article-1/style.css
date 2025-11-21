@@ -1,5 +1,4 @@
-@import url('fonts/css/array.css');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
+@import url('../fonts/css/array.css');
 @import url('../fonts/clash-grotesk.css');
 
 
@@ -69,10 +68,17 @@ h1 {
 
 .nav{
   font-family:'ClashGrotesk-Regular', sans-serif;
-  background-color: black;
+  /* background-color: black;
   padding-right: 1rem;
   padding-block: .2rem;
   display: inline-flex;
+  gap: 1rem auto;
+   */
+  display: flex;
+  justify-content: space-between; /* auto spacing */
+  align-items: center;
+  background: black;
+  padding: 1rem;
 }
 
 

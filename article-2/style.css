@@ -68,13 +68,13 @@ h1 {
 }
 
 
-
 .nav{
-  font-family: 'ClashGrotesk-Regular';
-  background-color: black;
-  padding-right: 1rem;
-  padding-block: .2rem;
-  display: inline-flex;
+  font-family:'ClashGrotesk-Regular', sans-serif;
+  display: flex;
+  justify-content: space-between; /* auto spacing */
+  align-items: center;
+  background: black;
+  padding: 1rem;
 }
 
 
@@ -129,7 +129,7 @@ p {
 }
 
 em{
-  font-family: 'ClashGrotesk-Semibold';
+  font-family:'ClashGrotesk-Semibold';
   font-style:normal;
 }
 

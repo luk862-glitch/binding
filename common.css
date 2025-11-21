@@ -1,21 +1,97 @@
+@import url('../fonts/css/array.css');
+@import url('../fonts/clash-grotesk.css');
+
+
+@font-face {
+  font-family: 'Array-Semibold';
+  src: url('../fonts/Array/Array-Semibold.woff2') format('woff2'),
+       url('../fonts/Array/Array-Semibold.woff') format('woff'),
+       url('../fonts/Array/Array-Semibold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Array-Bold';
+  src: url('../fonts/Array/Array-Bold.woff2') format('woff2'),
+       url('../fonts/Array/Array-Bold.woff') format('woff'),
+       url('../fonts/Array/Array-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk-Regular';
+  src: url('../fonts/ClashGrotesk/ClashGrotesk-Regular.woff2') format('woff2'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Regular.woff') format('woff'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk-Semibold';
+  src: url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.woff2') format('woff2'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.woff') format('woff'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
 :root{
-    --bg-color: rgb(224, 237, 212);
+    --bg-color: rgb(226, 226, 226);
     --fg-color: rgb(0, 0, 0);
     font-size: 125%;
     
 }
 
+
 body{
-    font-size: 5rem;
-    padding: 2.5rem;
-    background-color: var(--bg-color);
-    color: var(--fg-color);
+  font-family: 'ClashGrotesk-Regular';
+  font-size: 3rem;
+  padding: 2.5rem;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
 }
 
 
+h1{
+  padding-block: 2rem;
+}
+
 li {
-  font-family:'Clash Grotesk', sans-serif;
+  font-family: 'Array-Semibold';
+  font-size: 5rem;
+  color: whitesmoke;
   padding-right: .2rem;
-  padding-block: .2rem;
+  padding-block: 2rem;
   display: inline-flex;
+  list-style: none;
+}
+
+.A1{
+  background-image:
+  linear-gradient(rgba(255, 150, 206, 0.5), rgba(255, 79, 79, 0.5)),
+  url("../Image/image 1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.A2{
+  background-image:
+  linear-gradient(rgba(0, 12, 243, 0.5), rgba(48, 149, 243, 0.5)),
+  url("../Image/image 1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.A3{
+  background-image:
+  linear-gradient(rgba(0, 253, 0, 0.5), rgba(126, 255, 33, 0.5)),
+  url("../Image/image 1.png");
+  background-size: cover;
+  background-position: center;
 }
