@@ -48,7 +48,9 @@
 
 /* header */
 header{
-  background-image: url(../Image/image\ 1.png);
+    background-image:
+  linear-gradient(rgba(255, 251, 0, 0.5), rgba(79, 255, 229, 0.5)),
+  url("../Image/image 1.png");
   background-size: cover;
   padding-bottom: 1rem;
 }
@@ -57,7 +59,7 @@ header{
 h1 {
   font-family: 'Array-Semibold';
   color:whitesmoke;
-  font-size: 2.3rem;
+  font-size: 4rem;
   /* letter-spacing: -0.03em; */
   font-weight: 300;
   padding-left: 1rem;
@@ -68,7 +70,7 @@ h1 {
 
 
 .nav{
-  font-family:'ClashGrotesk-Regular', sans-serif;
+  font-family: 'ClashGrotesk-Regular';
   background-color: black;
   padding-right: 1rem;
   padding-block: .2rem;
@@ -84,11 +86,11 @@ h1 {
 }
 
 .data{
- font-family:'ClashGrotesk-Regular', sans-serif;
+  font-family: 'ClashGrotesk-Regular';
   font-size: 1rem;
   padding-right: .2rem;
   padding-block: 2rem;
-
+  list-style: none;
 }
 
 
@@ -99,23 +101,24 @@ blockquote {
   color: #000;
 }
 
-h2{
+h2 {
     font-family: 'Array-Semibold';
-    color:#ef3232;
+    color:#00bd4c;
     font-size: 2.2rem;
+    font-weight: 300;
     margin-top: 6rem;
     padding-inline: 1.5rem;
 }
 
 .name{
-    font-family:'Clash Grotesk', sans-serif;
+    font-family: 'ClashGrotesk-Regular';
     font-size: .8rem;
     margin-top: .8rem;
     display: block;
 }
 
 p {
-    font-family:'ClashGrotesk-Regular', sans-serif;
+    font-family: 'ClashGrotesk-Regular';
     padding-inline: 1.5rem;
     padding-block: .5rem;
 }
@@ -130,7 +133,7 @@ blockquote {
   color: whitesmoke;
   line-height: 2rem;
   background-image:
-  linear-gradient(rgba(255, 150, 206, 0.5), rgba(255, 79, 79, 0.5)),
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(46, 27, 255, 0.5)),
   url("../Image/image 1.png");
   background-size: cover;
   background-position: center;
@@ -138,7 +141,7 @@ blockquote {
 }
 
 footer{
-    font-family:'ClashGrotesk-Regular', sans-serif;
+    font-family: 'ClashGrotesk-Regular';
     color: whitesmoke;
     background-color: rgb(0, 0, 0);
     padding: 1.5rem;
