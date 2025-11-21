@@ -1,5 +1,6 @@
 @import url('fonts/css/array.css');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
+@import url('../fonts/clash-grotesk.css');
 
 
 @font-face {
@@ -16,6 +17,26 @@
        url('../fonts/Array/Array-Bold.woff') format('woff'),
        url('../fonts/Array/Array-Bold.ttf') format('truetype');
   font-weight: 700;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk-Regular';
+  src: url('../fonts/ClashGrotesk/ClashGrotesk-Regular.woff2') format('woff2'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Regular.woff') format('woff'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk-Semibold';
+  src: url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.woff2') format('woff2'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.woff') format('woff'),
+       url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
 }
 
 
@@ -47,7 +68,7 @@ h1 {
 
 
 .nav{
-  font-family:'Clash Grotesk', sans-serif;
+  font-family:'ClashGrotesk-Regular', sans-serif;
   background-color: black;
   padding-right: 1rem;
   padding-block: .2rem;
@@ -63,7 +84,7 @@ h1 {
 }
 
 .data{
-  font-family:'Clash Grotesk', sans-serif;
+ font-family:'ClashGrotesk-Regular', sans-serif;
   font-size: 1rem;
   padding-right: .2rem;
   padding-block: 2rem;
@@ -78,7 +99,7 @@ blockquote {
   color: #000;
 }
 
-h2 {
+h2{
     font-family: 'Array-Semibold';
     color:#ef3232;
     font-size: 2.2rem;
@@ -100,14 +121,14 @@ body {
 }
 
 p {
-    font-family:'Clash Grotesk', sans-serif;
+    font-family:'ClashGrotesk-Regular', sans-serif;
     padding-inline: 1.5rem;
     padding-block: .5rem;
 }
 
 em{
+  font-family: 'ClashGrotesk-Semibold';
   font-style:normal;
-  font-weight: 700;
 }
 
 
@@ -123,8 +144,8 @@ blockquote {
 }
 
 footer{
-    font-family:'Clash Grotesk', sans-serif;
-      color: whitesmoke;
+    font-family:'ClashGrotesk-Regular', sans-serif;
+    color: whitesmoke;
     background-color: rgb(0, 0, 0);
     padding: 1.5rem;
   }
