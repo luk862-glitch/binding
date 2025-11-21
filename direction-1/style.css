@@ -103,15 +103,9 @@ h2{
     font-family: 'Array-Semibold';
     color:#ef3232;
     font-size: 2.2rem;
-    font-weight: 300;
     margin-top: 6rem;
     padding-inline: 1.5rem;
 }
-
-body {
-  overflow-x: hidden;
-}
-
 
 .name{
     font-family:'Clash Grotesk', sans-serif;
