@@ -39,7 +39,19 @@
 }
 
 
-/* articles */
+:root{
+    font-size: 110%;
+    background-color: rgb(240, 240, 240);
+}
+
+@media (width > 600px) {
+    :root {
+        font-size: 150%;
+    }
+}
+
+
+
 header {
   background-size: cover;
   padding-bottom: 1rem;

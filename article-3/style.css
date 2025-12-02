@@ -1,9 +1,4 @@
 
-:root{
-    font-size: 110%;
-    background-color: rgb(226, 226, 226);
-}
-
 /* header */
 header{
   background-image:linear-gradient(rgba(255, 251, 0, 0.5), rgba(79, 255, 161, 0.5)),
