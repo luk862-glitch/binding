@@ -1,69 +1,56 @@
-@import url('../fonts/css/array.css');
-@import url('../fonts/clash-grotesk.css');
-
-
-@font-face {
-  font-family: 'Array-Semibold';
-  src: url('../fonts/Array/Array-Semibold.woff2') format('woff2'),
-       url('../fonts/Array/Array-Semibold.woff') format('woff'),
-       url('../fonts/Array/Array-Semibold.ttf') format('truetype');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Array-Bold';
-  src: url('../fonts/Array/Array-Bold.woff2') format('woff2'),
-       url('../fonts/Array/Array-Bold.woff') format('woff'),
-       url('../fonts/Array/Array-Bold.ttf') format('truetype');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'ClashGrotesk-Regular';
-  src: url('../fonts/ClashGrotesk/ClashGrotesk-Regular.woff2') format('woff2'),
-       url('../fonts/ClashGrotesk/ClashGrotesk-Regular.woff') format('woff'),
-       url('../fonts/ClashGrotesk/ClashGrotesk-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ClashGrotesk-Semibold';
-  src: url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.woff2') format('woff2'),
-       url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.woff') format('woff'),
-       url('../fonts/ClashGrotesk/ClashGrotesk-Semibold.ttf') format('truetype');
-  font-weight: 600;
-  font-display: swap;
-  font-style: normal;
-}
-
-
 
 :root{
-    font-size: 110%;
-    background-color: rgb(226, 226, 226);
+    font-size: 120%;
+    background-color: rgb(250, 250, 250);
+}
+
+@media (width > 600px) {
+    :root {
+        font-size: 150%;
+    }
 }
 
 /* header */
-header{
+
+
+header {
   background-image: url(../Image/image\ 1.png);
   background-size: cover;
   padding-bottom: 1rem;
 }
 
+@media (width>600px) {
+  header {
+    background-position: center;
+    background-size: cover;
+    background-position-y: 50%;
+  }
+}
+
 
 h1 {
-  font-family: 'Array-Semibold';
+  /* font-family: 'Array-Semibold'; */
+    font-family: 'ClashGrotesk-Semibold';
   color:whitesmoke;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   /* letter-spacing: -0.03em; */
   font-weight: 300;
   padding-left: 1rem;
-  margin-bottom: 0.3rem;
-  padding-top: 6rem;
+  margin-bottom: 0.5rem;
+  padding-top: 8rem;
+  /* text-decoration: underline; */
+    /* text-decoration-color: #d1fdff; */
+    /* text-decoration-thickness: 1.5rem;
+    text-underline-offset: -1.15rem;
+    text-decoration-skip-ink: none; */
 }
 
+@media (width>600px) {
+  h1{
+  font-size: 5rem;
+  max-width: 75%;
+  }
+}
 
 
 .nav{
@@ -107,23 +94,15 @@ h2{
     padding-inline: 1.5rem;
 }
 
-.name{
-    font-family:'Clash Grotesk', sans-serif;
-    font-size: .8rem;
-    margin-top: .8rem;
-    display: block;
+
+@media (width>600px) {
+  p{
+    max-width: 65ch;
+    margin: 0 auto; 
+  }
 }
 
-p {
-    font-family:'ClashGrotesk-Regular', sans-serif;
-    padding-inline: 1.5rem;
-    padding-block: .5rem;
-}
 
-em{
-  font-family: 'ClashGrotesk-Semibold';
-  font-style:normal;
-}
 
 
 blockquote {
@@ -137,9 +116,3 @@ blockquote {
   
 }
 
-footer{
-    font-family:'ClashGrotesk-Regular', sans-serif;
-    color: whitesmoke;
-    background-color: rgb(0, 0, 0);
-    padding: 1.5rem;
-  }
