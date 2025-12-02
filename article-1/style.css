@@ -8,13 +8,12 @@ header {
 
 
 blockquote {
-  color: whitesmoke;
-  line-height: 2rem;
   background-image:
   linear-gradient(rgba(255, 150, 206, 0.5), rgba(255, 79, 79, 0.5)),
   url("../Image/image 1.png");
-  background-size: cover;
-  background-position: center;
-  
 }
 
+
+em{
+  color: #ef6363;
+}

@@ -55,6 +55,7 @@
 header {
   background-size: cover;
   padding-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 @media (width>600px) {
@@ -70,7 +71,7 @@ header {
 
 h1 {
   /* font-family: 'Array-Semibold'; */
-    font-family: 'ClashGrotesk-Semibold';
+  font-family: 'ClashGrotesk-Semibold';
   color:whitesmoke;
   font-size: 2.8rem;
   /* letter-spacing: -0.03em; */
@@ -78,11 +79,11 @@ h1 {
   padding-left: 1rem;
   margin-bottom: 0.5rem;
   padding-top: 8rem;
-  /* text-decoration: underline; */
-    /* text-decoration-color: #d1fdff; */
-    /* text-decoration-thickness: 1.5rem;
-    text-underline-offset: -1.15rem;
-    text-decoration-skip-ink: none; */
+  text-decoration: underline;
+  text-decoration-color: #ef6363; 
+  text-decoration-thickness: 5rem;
+  text-underline-offset: -4rem;
+  text-decoration-skip-ink: none;
 }
 
 @media (width>600px) {
@@ -119,13 +120,6 @@ h1 {
 }
 
 
-blockquote {
-  font-family: 'Array-Semibold';
-  font-size: 2rem;
-  margin: 2rem;
-  color: #000;
-}
-
 h2{
     font-family: 'Array-Semibold';
     color:#ef3232;
@@ -136,25 +130,27 @@ h2{
 
 .name{
     font-family:'Clash Grotesk', sans-serif;
-    font-size: .8rem;
-    margin-top: .8rem;
+    font-size: .7rem;
+    margin-top: .5rem;
     display: block;
 }
 
 p {
     font-family:'ClashGrotesk-Regular', sans-serif;
     color:#444444 ;
-    padding-inline: 1.5rem;
-    
-    padding-block: .5rem;
-    letter-spacing: .03em; 
+    margin-inline: 1.3rem;
+    margin-block: 2rem;
+    line-height: 1.3rem;
+    letter-spacing: .04em; 
 }
 
 
 @media (width>600px) {
   p{
-    max-width: 65ch;
-    margin: 0 auto; 
+    margin-block: 2rem;
+    max-width: 55ch;
+    margin-inline: auto;
+
   }
 }
 
@@ -167,12 +163,28 @@ em{
 
 
 blockquote {
-  color: whitesmoke;
-  line-height: 2rem;
   background-size: cover;
   background-position: center;
-  
+  font-size: 2rem;
+  margin: 1rem;
+  padding-block: .3rem;
 }
+
+@media (width>600px){
+  blockquote{
+    max-width: 30ch;
+    margin: 0 auto; 
+    margin-block: 2rem;
+    padding-inline: 2rem;
+  }
+}
+
+.quote {
+  color: whitesmoke;
+  line-height: 2rem;
+}
+
+
 
 footer{
     font-family:'ClashGrotesk-Regular', sans-serif;
