@@ -1,9 +1,13 @@
-
+:root{
+  --dark-blue:rgb(63, 79, 255, 0.3);
+  --blue:rgb(79, 175, 230, 0.3);
+  --solid-blue:rgba(22, 161, 242);
+}
 
 
 header {
   background-image:
-  linear-gradient(rgba(0, 98, 255, 0.5), rgba(22, 161, 242, 0.5)),
+  linear-gradient(var(--dark-blue), var(--blue)),
   url("../Image/image 1.png");
   background-size: cover;
   padding-bottom: 1rem;
@@ -18,9 +22,41 @@ header {
   }
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+  linear-gradient(rgba(150, 159, 255, 0.672), rgba(173, 225, 255, 0.498)),
+  url("../Image/image 1.png");
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  filter: blur(10rem);
+  z-index: -1;
+}
+
 
 blockquote {
   background-image:
-  linear-gradient(rgba(31, 172, 253, 0.5), rgba(51, 11, 249, 0.5)),
+  linear-gradient(var(--dark-blue), var(--blue)),
   url("../Image/image 1.png");
+}
+
+
+em{
+  text-decoration: underline;
+  text-decoration-color: var(--blue); 
+  text-decoration-thickness: .3rem;
+  text-underline-offset: -.05rem;
+  text-decoration-skip-ink: none;
+}
+
+
+.link{
+  color:rgba(22, 161, 242);
+  text-decoration: dotted underline;
+  text-decoration-color: var(--solid-blue); 
+  text-decoration-thickness: 0.2rem;
+  text-decoration-skip-ink: none;
 }

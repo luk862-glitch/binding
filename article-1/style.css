@@ -1,19 +1,63 @@
-
+:root{
+  --pink:rgba(255, 169, 215, 0.2);
+  --red:rgba(255, 79, 79, 0.2);
+  --blush:rgb(227, 154, 167);
+  --link:rgb(222, 58, 222);
+}
 
 
 header {
-  background-image: url(../Image/image\ 1.png);
+  background-image:
+  linear-gradient(var(--red), var(--pink)),
+  url("../Image/image 1.png");
+  background-size: cover;
+  padding-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
+@media (width>600px) {
+  header {
+    background-position: center;
+    background-size: cover;
+    background-position-y: 30%;
+  }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+  linear-gradient(rgba(209, 175, 175, 0.754), rgba(215, 206, 201, 0.66)),
+  url("../Image/image 1.png");
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  filter: blur(10rem);
+  z-index: -1;
+}
 
 
 blockquote {
   background-image:
-  linear-gradient(rgba(255, 150, 206, 0.5), rgba(255, 79, 79, 0.5)),
+  linear-gradient(var(--red), var(--pink)),
   url("../Image/image 1.png");
 }
 
 
 em{
-  color: #b42a2a;
+  text-decoration: underline;
+  text-decoration-color: var(--blush); 
+  text-decoration-thickness: .3rem;
+  text-underline-offset: -.05rem;
+  text-decoration-skip-ink: none;
+}
+
+
+.link{
+  color:var(--link);
+  text-decoration: underline;
+  text-decoration-color:var(--link);
+  text-decoration-thickness: 0.1rem;
+  text-decoration-skip-ink: none;
 }
