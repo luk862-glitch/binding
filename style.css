@@ -33,7 +33,7 @@ h1{
   }
 }
 
-li {
+/* .li {
   font-family: 'ClashGrotesk-Semibold';
   font-size: 5rem;
   color: whitesmoke;
@@ -42,6 +42,37 @@ li {
   width:100%;
   margin-block:2rem;
   padding-inline: 1rem;
+} */
+
+
+.nav{
+  font-family:'ClashGrotesk-Regular', sans-serif;
+  font-size: 1.5rem;
+  display: grid;
+  text-decoration: underline white;
+  align-items: center;
+  background: rgb(0, 0, 0,0.4);
+  gap: .4rem; 
+  list-style: none;
+}
+
+@media (width>600px){
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  position: sticky; 
+  top: 0;  
+  backdrop-filter: blur(0.3rem);
+}
+}
+
+
+/* links */
+.nav a {
+  color: rgb(220, 222, 227);
+  padding-block: 1rem;
 }
 
 
