@@ -1,7 +1,8 @@
 :root{
 --yellow:rgba(255, 251, 0, 0.3);
 --purple:rgba(52, 95, 149, 0.3);
---solid-green:rgba(32, 255, 69, 0.953);
+--solid-green:rgb(25, 160, 25);
+--yellow-strong:rgba(255, 227, 68, 0.6);
 }
 
 
@@ -17,19 +18,19 @@ header{
 }
 
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   inset: 0;
   background-image:
-  linear-gradient(var(--purple), rgba(235, 235, 235, 0.5)),
+  linear-gradient(var(--purple), rgba(235, 235, 235, 0.2)),
   url("../Image/image 1.png");
   background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
   filter: blur(10rem);
   z-index: -1;
-}
+} */
 
 
 blockquote {
@@ -41,17 +42,17 @@ blockquote {
 
 em{
   text-decoration: underline;
-  text-decoration-color: var(--yellow); 
-  text-decoration-thickness: .3rem;
-  text-underline-offset: -.05rem;
+  text-decoration-color: var(--yellow-strong); 
+  text-decoration-thickness: .4rem;
+  text-underline-offset: -0.1rem;
   text-decoration-skip-ink: none;
 }
 
 
 .link{
-  color:rgb(36, 224, 36);
-  text-decoration: dotted underline;
+  color: var(--solid-green);
+  text-decoration: solid underline;
   text-decoration-color: var(--solid-green); 
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.1rem;
   text-decoration-skip-ink: none;
 }
