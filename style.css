@@ -1,6 +1,5 @@
 
 :root{
-  font-size: 100%;
   --bg-color: rgb(240, 240, 240);
   --fg-color: rgb(0, 0, 0);
   --pink:rgba(255, 169, 215, 0.2);
@@ -9,16 +8,35 @@
   --blue:rgb(79, 175, 230, 0.3);
   --yellow:rgba(255, 251, 0, 0.3);
   --purple:rgba(52, 95, 149, 0.3);
+
+  --pink-strong:rgba(255, 169, 215, 0.7);
+  --red-strong:rgba(255, 79, 79, 0.7);
+  --dark-blue-strong:rgb(63, 79, 255, 0.7);
+  --blue-strong:rgb(79, 175, 230, 0.7);
+  --yellow-strong:rgba(255, 251, 0, 0.7);
+  --purple-strong:rgba(52, 95, 149, 0.5);
 }
 
 
-
-
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+  linear-gradient(rgba(209, 175, 175, 0.3), rgba(215, 206, 201, 0.3)),
+  url("../Image/image 1.png");
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  filter: blur(2rem);
+  z-index: -1;
+}
 
 
 h1{
   color: var(--fg-color);
-  font-size: 3rem;
+  font-size: 2.5rem;
+  display: grid;
 }
 
 @media (width>600px) {
@@ -30,41 +48,62 @@ h1{
   }
 }
 
-/* 
-p{
-  font-family: 'ClashGrotesk-Regular';
-  font-size: 2rem;
-  padding: 2.5rem;
-  background-color: var(--bg-color);
-  color: var(--fg-color);
-  line-height: 2.5rem; 
-} */
+.masked {
+  font-size: 5rem;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.m1{
+background-image:
+    linear-gradient(var(--red-strong), var(--pink-strong)),
+    url("../Image/image 1.png");
+}
+
+.m2{
+  background-image:
+  linear-gradient(var(--dark-blue-strong), var(--blue-strong)),
+  url("../Image/image 1.png");
+  margin-top: -1.2rem;   /* move up to overlap "Style" a bit */
+  left: 1.5rem; 
+}
+
+.m3{
+  background-image:
+  linear-gradient(var(--yellow-strong), var(--purple-strong)),
+  url("../Image/image 1.png");
+    margin-top: -1.2rem;   /* overlap "and" */
+  left: -1rem;    
+}
+
+
+
 
 
 .list {
   font-family: 'ClashGrotesk-Semibold';
   font-size: 2rem;
   color: whitesmoke;
-  display: inline-flex;
   list-style: none;
   width:100%;
   margin-block:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes metadata to bottom */
+  height: 18rem;
   padding-inline: 1rem;
-  padding-top:1rem;
+  padding: 1.5rem;
 }
 
 
-/* .metadata{
+
+.metadata {
   font-family:'ClashGrotesk-Regular', sans-serif;
   font-size: .8rem;
-  display: grid;
-  align-items: end;
-  padding-left:1.5rem;
-  padding-block: 1.5rem;
-  letter-spacing: .04em; 
-  line-height: 1.5rem;
-  list-style: none;
-} */
+}
 
 
 
@@ -73,7 +112,6 @@ p{
   linear-gradient(var(--red), var(--pink)),
   url("Image/image\ 1.png");
   background-size: cover;
-  height: 20rem;
 }
 
 
@@ -82,15 +120,38 @@ p{
   linear-gradient(var(--dark-blue), var(--blue)),
   url("Image/image\ 1.png");
   background-size: cover;
-  height: 20rem;
 }
 
 .A3{
   background-image:linear-gradient(var(--yellow), var(--purple)),
   url("Image/image\ 1.png");
   background-size: cover;
-  height: 20rem;
 }
+
+
+
+/* colophon */
+details {
+  font-family: sans-serif;
+  margin-bottom: 10px; /* Add some space between sections */
+}
+
+summary {
+  background-color:var( --fg-color);
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+summary:hover {
+  background-color: var(--blue);
+}
+
+details[open] summary {
+  background-color: darkslateblue; /* Change color when open */
+}
+
+
 
 
 

@@ -101,6 +101,8 @@ h1 {
   padding: 1rem;
   gap: .4rem; 
   list-style: none;
+  backdrop-filter: blur(0.3rem);
+  justify-items: end;
 }
 
 @media (width>600px){
@@ -111,7 +113,6 @@ h1 {
   padding: 2rem;
   position: sticky; 
   top: 0;  
-  backdrop-filter: blur(0.3rem);
 }
 }
 
@@ -150,7 +151,7 @@ h1 {
 
 
 .written{
-  opacity: 40%;
+  opacity: 50%;
   padding-right: .2rem;
 }
 
@@ -224,6 +225,8 @@ footer{
   display:block;
   align-items: end;
   gap:1rem;
+  backdrop-filter: blur(0.3rem);
+  background: rgb(0, 0, 0,0.4);
   }
 
   @media (width>600px){
