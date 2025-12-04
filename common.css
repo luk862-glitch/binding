@@ -97,9 +97,10 @@ h1 {
   display: grid;
   text-decoration: underline white;
   align-items: center;
-  background: black;
+  background: rgb(0, 0, 0,0.4);
   padding: 1rem;
-  gap: .4rem;  
+  gap: .4rem; 
+  list-style: none;
 }
 
 @media (width>600px){
@@ -107,8 +108,10 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
   padding: 2rem;
+  position: sticky; 
+  top: 0;  
+  backdrop-filter: blur(0.3rem);
 }
 }
 
@@ -176,9 +179,9 @@ p {
     letter-spacing: .04em; 
 }
 
-
 @media (width>600px) {
   p{
+    font-size: 2rem;
     margin-block: 2rem;
     max-width: 57ch;
     line-height: 1.7rem;
