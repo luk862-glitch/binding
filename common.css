@@ -148,7 +148,12 @@ h1 {
   display: grid;
   gap: 3rem;
   align-items: center;
-  padding-left:calc(var(--left)*2);
+}
+
+@media (width>600px){
+.article-layout {
+  margin-left: var(--left);
+}
 }
 
 
@@ -325,7 +330,7 @@ footer{
   background-color: rgb(0, 0, 0);
   padding-block: 3rem;
   padding-inline:var(--left);
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   list-style: none;
   display:block;
   align-items: end;
@@ -333,6 +338,11 @@ footer{
   backdrop-filter: blur(0.3rem);
   background: rgb(0, 0, 0,0.4);
   }
+
+svg{
+  max-width: 100%;
+}
+
 
   @media (width>600px){
   footer{
