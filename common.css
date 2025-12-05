@@ -103,7 +103,7 @@ h1 {
 @media (width>600px) {
   h1{
   font-size: 5rem;
-  max-width: 75%;
+  max-width: 70%;
   padding-inline: 2rem;
   }
 }
