@@ -1,22 +1,4 @@
-/* @import url('fonts/css/array.css'); */
 @import url('fonts/clash-grotesk.css');
-
-/* 
-@font-face {
-  font-family: 'Array-Semibold';
-  src: url('fonts/Array/Array-Semibold.woff2') format('woff2'),
-       url('fonts/Array/Array-Semibold.woff') format('woff'),
-       url('fonts/Array/Array-Semibold.ttf') format('truetype');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Array-Bold';
-  src: url('fonts/Array/Array-Bold.woff2') format('woff2'),
-       url('fonts/Array/Array-Bold.woff') format('woff'),
-       url('fonts/Array/Array-Bold.ttf') format('truetype');
-  font-weight: 700;
-} */
 
 @font-face {
   font-family: 'ClashGrotesk-Regular';

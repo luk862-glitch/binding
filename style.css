@@ -17,22 +17,6 @@
   --purple-strong:rgba(52, 95, 149, 0.5);
 }
 
-
-/* body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image:
-  linear-gradient(rgba(209, 175, 175, 0.3), rgba(215, 206, 201, 0.3)),
-  url("../Image/image 1.png");
-  background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-  filter: blur(2rem);
-  z-index: -1;
-} */
-
-
 .top-nav {
   position: sticky;
   top: 0;
