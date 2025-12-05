@@ -23,7 +23,7 @@ header {
   }
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   inset: 0;
@@ -35,7 +35,7 @@ background-position: center;
 background-repeat: no-repeat;
   filter: blur(10rem);
   z-index: -1;
-}
+} */
 
 
 blockquote {

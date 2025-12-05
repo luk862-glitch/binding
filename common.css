@@ -40,14 +40,31 @@
 
 
 :root{
+    --bg-color: rgb(240, 240, 240);
+  --fg-color: rgb(0, 0, 0);
+  --pink:rgba(255, 169, 215, 0.2);
+  --red:rgba(255, 79, 79, 0.3);
+  --dark-blue:rgb(63, 79, 255, 0.3);
+  --blue:rgb(79, 175, 230, 0.3);
+  --yellow:rgba(255, 251, 0, 0.3);
+  --purple:rgba(52, 95, 149, 0.3);
+
+  --pink-strong:rgba(255, 169, 215, 0.7);
+  --red-strong:rgba(255, 79, 79, 0.7);
+  --dark-blue-strong:rgb(63, 79, 255, 0.7);
+  --blue-strong:rgb(79, 175, 230, 0.7);
+  --yellow-strong:rgba(255, 251, 0);
+  --purple-strong:rgba(52, 95, 149, 0.5);
+
     font-size: 110%;
     background-color: rgb(240, 240, 240);
     --left:3rem;
+
 }
 
 @media (width > 600px) {
     :root {
-        font-size: 135%;
+        font-size: 125%;
     }
 }
 
@@ -160,7 +177,7 @@ h2{
   color:#000000;
   font-size: 2.2rem;
   margin-top: 6rem;
-  padding-left: 1.5rem;
+  padding-left: 1.4rem;
 }
 
 
@@ -176,17 +193,17 @@ p {
     color:#444444 ;
     margin-inline: 1.3rem;
     margin-block: 2rem;
-    line-height: 1.3rem;
-    letter-spacing: .04em; 
+    line-height: 1.5rem;
+    letter-spacing: .03em; 
 }
 
 @media (width>600px) {
   p{
     font-size: 1rem;
     margin-block: 2rem;
-    max-width: 57ch;
+    max-width: 60ch;
     line-height: 1.7rem;
-    padding-left:var(--left);
+    padding-left:calc(var(--left)*2);
   }
 }
 
@@ -210,6 +227,82 @@ blockquote {
   font-size:1.5rem;
   color: whitesmoke;
   line-height: 1.8rem;
+}
+
+
+.article-layout {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (Width>600px){
+.article-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; 
+  gap: 3rem;
+}
+}
+
+
+/* related articles */
+.related {
+  width: 22rem;
+  margin-left: auto; 
+}
+
+h3 {
+  font-family: 'ClashGrotesk-Semibold';
+  font-size: 2rem;
+  color:(var(--fg-color));
+  margin-bottom: 1rem;
+}
+
+.rel-card {
+  display: block;
+  height:13rem;
+  padding: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  margin-right:var(--left);
+  background-size: cover;
+  background-position: center;
+}
+
+.rel-title {
+  font-family: 'ClashGrotesk-Semibold';
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.rel-meta {
+  font-family: 'ClashGrotesk-Regular';
+  font-size: .8rem;
+  opacity: .8;
+}
+
+
+.A1{
+  background-image:
+  linear-gradient(var(--red), var(--pink)),
+  url("Image/image\ 1.png");
+  background-size: cover;
+}
+
+
+.A2{
+  background-image:
+  linear-gradient(var(--dark-blue), var(--blue)),
+  url("Image/image\ 1.png");
+  background-size: cover;
+}
+
+.A3{
+  background-image:linear-gradient(var(--yellow), var(--purple)),
+  url("Image/image\ 1.png");
+  background-size: cover;
 }
 
 
