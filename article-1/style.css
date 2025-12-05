@@ -2,7 +2,7 @@
   --pink:rgba(255, 169, 215, 0.2);
   --red:rgba(255, 79, 79, 0.2);
   --blush:rgb(241, 184, 195);
-  --link:rgb(222, 58, 222);
+  --link:rgb(226, 110, 110);
 }
 
 
@@ -22,21 +22,6 @@ header {
     background-position-y: 30%;
   }
 }
-
-/* body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image:
-  linear-gradient(rgba(209, 175, 175, 0.754), rgba(215, 206, 201, 0.66)),
-  url("../Image/image 1.png");
-  background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-  filter: blur(10rem);
-  z-index: -1;
-} */
-
 
 blockquote {
   background-image:

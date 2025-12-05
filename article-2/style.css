@@ -1,6 +1,6 @@
 :root{
   --dark-blue:rgb(63, 79, 255, 0.3);
-  --blue:rgb(79, 175, 230, 0.3);
+  --blue:rgba(82, 185, 245, 0.39);
   --solid-blue:rgba(22, 161, 242);
 }
 
@@ -55,8 +55,8 @@ em{
 
 .link{
   color:rgba(22, 161, 242);
-  text-decoration: dotted underline;
+  text-decoration: solid underline;
   text-decoration-color: var(--solid-blue); 
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.1rem;
   text-decoration-skip-ink: none;
 }

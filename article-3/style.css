@@ -3,6 +3,7 @@
 --purple:rgba(52, 95, 149, 0.3);
 --solid-green:rgb(25, 160, 25);
 --yellow-strong:rgba(255, 227, 68, 0.6);
+--yellow-link:rgb(152, 131, 13);
 }
 
 
@@ -16,21 +17,6 @@ header{
   padding-bottom: 1rem;
   margin-bottom: 5rem;
 }
-
-
-/* body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image:
-  linear-gradient(var(--purple), rgba(235, 235, 235, 0.2)),
-  url("../Image/image 1.png");
-  background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-  filter: blur(10rem);
-  z-index: -1;
-} */
 
 
 blockquote {
@@ -50,9 +36,9 @@ em{
 
 
 .link{
-  color: var(--solid-green);
+  color: var(--yellow-link);
   text-decoration: solid underline;
-  text-decoration-color: var(--solid-green); 
+  text-decoration-color: var(--yellow-link); 
   text-decoration-thickness: 0.1rem;
   text-decoration-skip-ink: none;
 }
