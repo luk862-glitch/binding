@@ -107,6 +107,15 @@ h1 {
   padding-inline: 2rem;
   }
 }
+body {
+  margin: 0;     
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10; 
+}
 
 
 .nav{
@@ -152,7 +161,7 @@ h1 {
 
 @media (width>600px){
 .article-layout {
-  margin-left: var(--left);
+  margin-left: calc(var(--left)*2);
 }
 }
 
@@ -219,6 +228,7 @@ p {
     font-family:'ClashGrotesk-Regular', sans-serif;
     color:#444444 ;
     margin-inline: 1.3rem;
+    padding-block: 1rem;
     line-height: 1.5rem;
     letter-spacing: .03em; 
 }
@@ -252,7 +262,6 @@ blockquote {
 
 
 
-
 @media (Width>600px){
 .article-layout {
   display: flex;
@@ -268,6 +277,7 @@ blockquote {
   width: 22rem;
   margin-left: auto; 
 }
+
 
 h3 {
   font-family: 'ClashGrotesk-Semibold';

@@ -33,6 +33,13 @@ background-repeat: no-repeat;
 } */
 
 
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
 .layout {
   padding: 2rem;
   overflow: hidden;
@@ -210,7 +217,7 @@ p {
 /* colophon */
 details {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 1.5rem auto;
 }
 
 summary {
@@ -229,8 +236,22 @@ summary:hover {
 }
 
 details[open] summary {
-  background-color: var(--blue); /* Change color when open */
+  background-color: var(--purple);
 }
+
+/* colophon arrow */
+summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+
 
 
 
